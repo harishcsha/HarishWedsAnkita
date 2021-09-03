@@ -2,7 +2,7 @@
  * @author [Harish C Jingade]
  * @email [harishcjingade5064@mail.com]
  * @create date 2021-09-01 14:56:50
- * @modify date 2021-09-01 14:57:16
+ * @modify date 2021-09-03 18:05:18
  * @desc [Harish Weds Ankita]
  */
 
@@ -1671,6 +1671,10 @@ section {
 .countdown div h4 {
   font-size: 16px;
   font-weight: 600;
+}
+
+.couplesCntr {
+  justify-content: center !important;
 }
 
 @media (max-width: 575px) {
