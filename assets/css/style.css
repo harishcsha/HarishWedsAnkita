@@ -1630,11 +1630,18 @@ section {
   font-size: 13px;
 }
 
+.picBackground {
+  background: url(../img/PreWedding_pics/DSC06131.jpg);
+  height: 560px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 180%;
+}
 
 /* Countdown timmer */
 
 .counterTextContainer {
-  background: #000;
+  /* background: #000; */
   color: #fff;
   display: flex;
   justify-content: center;
@@ -1649,7 +1656,7 @@ section {
 
 .countdown {
   padding-bottom: 40px;
-  background: #000;
+  /* background: #000; */
   color: #fff;
 }
 
@@ -1679,7 +1686,8 @@ section {
 
 @media (max-width: 575px) {
   .cuntertxt { 
-    font-size: 30px;
+    font-size: 50px;
+    color: #feaf3b;
   }
   .countdown div {
     width: 70px;
@@ -1693,6 +1701,10 @@ section {
   .countdown div h4 {
     font-size: 14px;
     font-weight: 500;
+  }
+  .picBackground {
+    height: 480px;
+    background-size: 290% 100%;
   }
 }
 
